@@ -74,28 +74,28 @@ DOMAIN-SUFFIX,wv.inner-active.mobi,REJECT
 DOMAIN-SUFFIX,www.googletagservices-cn.com,REJECT
 
 # 以下为该软件可能需要走代理的规则
-DOMAIN-SUFFIX,tktn.at,PROXY
-DOMAIN-SUFFIX,tktn.be,PROXY
+DOMAIN-SUFFIX,tktn.at,PROXY = apple
+DOMAIN-SUFFIX,tktn.be,PROXY = apple
 # 语音留言地址，一般需要代理
-DOMAIN-SUFFIX,vm.talkatone.com,PROXY
+DOMAIN-SUFFIX,vm.talkatone.com,PROXY = apple
 # 贴图服务
-DOMAIN-SUFFIX,tenor.com,PROXY
+DOMAIN-SUFFIX,tenor.com,PROXY = apple
 
 # 以下为该软件可能需要走直连的规则
-DOMAIN-SUFFIX,agkn.com,"apple"
-DOMAIN-SUFFIX,cohere.com,"apple"
-DOMAIN-SUFFIX,crashlytics.com,"apple"
-DOMAIN-SUFFIX,inmobi.com,"apple"
-DOMAIN-SUFFIX,inner-active.mobi,"apple"
-DOMAIN-SUFFIX,ip-api.com,"apple"
-DOMAIN-SUFFIX,kochava.com,"apple"
-DOMAIN-SUFFIX,mobilefuse.com,"apple"
-DOMAIN-SUFFIX,talkatone.com,"apple"
-IP-CIDR,205.164.56.0/24,"apple",no-resolve
-IP-CIDR,216.172.154.0/24,"apple",no-resolve
-IP-CIDR,50.117.27.0/24,"apple",no-resolve
-IP-CIDR,63.251.124.0/24,"apple",no-resolve
-IP-CIDR,69.46.75.0/24,"apple",no-resolve
+DOMAIN-SUFFIX,agkn.com,PROXY = apple
+DOMAIN-SUFFIX,cohere.com,PROXY = apple
+DOMAIN-SUFFIX,crashlytics.com,PROXY = apple
+DOMAIN-SUFFIX,inmobi.com,PROXY = apple
+DOMAIN-SUFFIX,inner-active.mobi,PROXY = apple
+DOMAIN-SUFFIX,ip-api.com,PROXY = apple
+DOMAIN-SUFFIX,kochava.com,PROXY = apple
+DOMAIN-SUFFIX,mobilefuse.com,PROXY = apple
+DOMAIN-SUFFIX,talkatone.com,PROXY = apple
+IP-CIDR,205.164.56.0/24,PROXY = apple,no-resolve
+IP-CIDR,216.172.154.0/24,PROXY = apple,no-resolve
+IP-CIDR,50.117.27.0/24,PROXY = apple,no-resolve
+IP-CIDR,63.251.124.0/24,PROXY = apple,no-resolve
+IP-CIDR,69.46.75.0/24,PROXY = apple,no-resolve
 
 # 本模块暂不启用以下内容
 # [URL Rewrite]
